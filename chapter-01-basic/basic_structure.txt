@@ -4,5 +4,19 @@ int main() {
     return 0;
 }
 
-
 What is "#include <iostream>" ?
+This is a preprocessor directive that tells the compiler to include the Input/Output Stream library. The <iostream> library provides functionality for input (cin) and output (cout). Without this line, you wouldn’t be able to use std::cout for printing to the console.
+
+What is "int main() {}" ?
+This defines the main function, which is the entry point of a C++ program. When the program is executed, the instructions inside this function are executed first. The int before main indicates that this function returns an integer value, which is typically used to indicate the program's execution status (0 for success). This curly brace marks the beginning of the main function’s body. All the instructions of the program will be written inside this block.
+
+What does 'std::cout<<"Namaste everyone";' this line indicates?
+std::cout :=> 
+Stands for Console Output. Used to print text or variables to the standard output (usually the terminal or console).
+
+what is "<<" used for?
+This is the insertion operator, used to send data to std::cout for display.
+"Namaste everyone" is a string literal enclosed in double quotes. It represents the text you want to display. The program sends the string "Namaste everyone" to the output stream, which displays it on the console.
+
+What does "return 0;" indicates?
+This statement ends the main function and returns an integer value of 0. In C++, returning 0 usually signifies that the program has executed successfully without errors. If you omit this line in modern C++, some compilers automatically assume "return 0;".
